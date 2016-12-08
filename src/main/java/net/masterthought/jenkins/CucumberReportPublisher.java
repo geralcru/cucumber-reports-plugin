@@ -152,6 +152,7 @@ public class CucumberReportPublisher extends Publisher implements SimpleBuildSte
         scanner.scan();
         return scanner.getIncludedFiles();
     }
+    
 
     private List<String> fullPathToJsonFiles(String[] jsonFiles, File targetBuildDirectory) {
         List<String> fullPathList = new ArrayList<String>();
